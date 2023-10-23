@@ -2,6 +2,8 @@
 
 This is a test for me to build a working jenkins system to perform operations and testing locally on my Linux Virtual Machine running Ubuntu-ARM64 with Docker.
 The container that gets built will have some plugins installed, the zscaler root ca, and some other packages.
+The resulting container has a default admin user and password created. 
+This is NOT for production.  Just use this for dev and testing purposes, as I am embedding the username and password in the Dockerfile.
 
 # How to build:
 
